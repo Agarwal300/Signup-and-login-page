@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth-container">
+
+    <!-- Radio Buttons -->
+    <input type="radio" name="auth" id="login" checked>
+    <input type="radio" name="auth" id="signup">
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <label for="login">Login</label>
+        <label for="signup">Sign Up</label>
+    </div>
+
+    <!-- Forms Wrapper -->
+    <div class="forms-wrapper">
+
+        <!-- Login Form -->
+        <form class="form login-form">
+            <h2>Welcome Back</h2>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Signup Form -->
+        <form class="form signup-form">
+            <h2>Create Account</h2>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>
